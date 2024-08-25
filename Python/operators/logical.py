@@ -20,7 +20,7 @@ print(f"| False  | False  | {not (True and True)}       |")
 print("__" * 16)
 
 
-# And Truth Table
+# Or Truth Table
 print("__" * 16)
 print(f"| True   |  True  | {True or True}        |")
 print(f"| True   |  False | {True or False}        |")
@@ -29,7 +29,7 @@ print(f"| False  | False  | {not (True or True)}       |")
 print("__" * 16)
 
 
-# And Truth Table
+# Not Truth Table
 print("__" * 12)
 print(f"| True  | {not True}        |")
 print(f"| False | {not False}         |")
